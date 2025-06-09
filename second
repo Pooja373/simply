@@ -1,0 +1,6 @@
+2.Gradle(build.gradle.kts)
+tasks.withType<Jar>{
+manifest{
+attributes["Main-class"]="org.example.App"
+}
+}
